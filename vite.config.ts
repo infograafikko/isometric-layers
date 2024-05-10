@@ -3,6 +3,7 @@ import solidPlugin from 'vite-plugin-solid';
 // import devtools from 'solid-devtools/vite';
 
 export default defineConfig({
+  base:"https://infograafikko.github.io/isometric-layers/",
   plugins: [
     /* 
     Uncomment the following line to enable solid-devtools.
@@ -16,5 +17,6 @@ export default defineConfig({
   },
   build: {
     target: 'esnext',
+    outDir: "docs",
   },
 });
