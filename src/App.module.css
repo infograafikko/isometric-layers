@@ -1,0 +1,12 @@
+.App {
+  width: 1920px;
+  height: 1080px;
+  background-color: white;
+  display: block;
+  margin: auto;
+  background: 
+  radial-gradient(circle, #1e0032, transparent), 
+  linear-gradient(45deg, #1e0032, #402966);
+  display: flex;
+  max-width: 100%;
+}
