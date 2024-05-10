@@ -7,7 +7,7 @@
     g {
       transform: translateX(var(--offset-x)) translateY(var(--offset-y)) translateZ(var(--offset-z));
       transition: transform 0.2s ease-out;
-      animation: hover 2s infinite;
+      animation: hover 2s 2;
   
       &:nth-of-type(2) {
         animation-delay: 0.2s;
